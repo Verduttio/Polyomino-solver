@@ -85,7 +85,7 @@ fitfigures (f:fs) shape = foldl(\acc place -> acc || fitfigures fs (removeBlocks
                             || foldl(\acc place -> acc || fitfigures fs (removeBlocks (rotate90 f) place shape)) False (fitPlaces (rotate90 f) shape)
                             || foldl(\acc place -> acc || fitfigures fs (removeBlocks (rotate180 f) place shape)) False (fitPlaces (rotate180 f) shape)
                             || foldl(\acc place -> acc || fitfigures fs (removeBlocks (rotate270 f) place shape)) False (fitPlaces (rotate270 f) shape)
-----DOPASOWYWANIE FIGUR DO shapeU--END----
+----Matching figures to the shape--END----
 
 ----Rotation-------
 rotate90 :: Figure -> Figure
