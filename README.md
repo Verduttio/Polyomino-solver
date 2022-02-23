@@ -17,7 +17,7 @@ main polyomino
 ```
 
 **Polyomino representation**  
-***To convert polyominoes in ASCII representation to numbers use `Polyomino-solver-inputConverter` repository***  
+***To automatically convert polyominoes in ASCII representation to numbers use `Polyomino-solver-inputConverter` repository***   
 We represent each polyomino by its coordinates in a virtual array.  
 Example:  
 Let's say we have a polyomino:  
@@ -39,9 +39,9 @@ Let's add row and column numbers:
 Let's write down the coordinates now:  
 `(0,0) (0,1) (0,2) (1,2) (1,3) (2,3) (3,0) (3,1) (3,2) (3,3)`  
 And these numbers are the representation of our polyomino and should be put into the inputFile.  
-Coordinates structure: `(fst,snd)_(fst,snd)_...` where `_` is space.
-***To convert polyominoes in ASCII representation to numbers use `Polyomino-solver-inputConverter` repository***  
+Coordinates structure: `(fst,snd)_(fst,snd)_...` where `_` is space.  
+***To automatically convert polyominoes in ASCII representation to numbers use `Polyomino-solver-inputConverter` repository***  
 
 In directiory `examples` in a file called example.txt you can find simple input example and in a file called exampleASCII.txt you can find polyominoes from example.txt in ASCII art style.
 
-***To convert polyominoes in ASCII representation to numbers use `Polyomino-solver-inputConverter` repository***  
+***To automatically convert polyominoes in ASCII representation to numbers use `Polyomino-solver-inputConverter` repository***  
