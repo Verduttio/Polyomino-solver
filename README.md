@@ -39,3 +39,5 @@ Let's write down the coordinates now:
 `(0,0) (0,1) (0,2) (1,2) (1,3) (2,3) (3,0) (3,1) (3,2) (3,3)`  
 And these numbers are the representation of our polyomino and should be put into the inputFile.
 Coordinates structure: `(fst,snd)_(fst,snd)_...` where `_` is space.
+
+In a file called example.txt you can find simple input example and in a file called exampleASCII.txt you can find polyominoes from example.txt in ASCII art style.
