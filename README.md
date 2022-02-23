@@ -1,6 +1,6 @@
 # Polyomino-solver
 
-Polyomino solver checks whether from given polyomines you can compose first given polyomino.
+Polyomino solver checks whether from given polyomines can be composed first given polyomino.
 
 To make an executable file use `ghc Polyomino_solver.hs`. Then to run the program use `Polyomino_solver.(extension) [inputFile]`.
 
