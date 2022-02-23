@@ -40,4 +40,4 @@ Let's write down the coordinates now:
 And these numbers are the representation of our polyomino and should be put into the inputFile.  
 Coordinates structure: `(fst,snd)_(fst,snd)_...` where `_` is space.
 
-In a file called example.txt you can find simple input example and in a file called exampleASCII.txt you can find polyominoes from example.txt in ASCII art style.
+In directiory `examples` in a file called example.txt you can find simple input example and in a file called exampleASCII.txt you can find polyominoes from example.txt in ASCII art style.
